@@ -6,9 +6,9 @@
 <div>
 	<p style="color: blue">{{msg}}</p>
 </div>
-
 <mat-grid-list cols="5" rowHeight="200px">
 	<mat-grid-tile *ngFor="let pic of pictures">
 		<img [src]="pic.url" alt="img" style="height: 100%" (click)="openDialog(pic)">
 	</mat-grid-tile>
 </mat-grid-list>
+<app-table [picturess]="pictures"></app-table>

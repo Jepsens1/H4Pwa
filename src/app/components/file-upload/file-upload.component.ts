@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Pictures } from 'src/app/class/Pictures';
 import { MatDialog } from '@angular/material/dialog';
 import { DialogComponent } from '../dialog/dialog.component';
+
 @Component({
   selector: 'app-file-upload',
   templateUrl: './file-upload.component.html',
@@ -11,7 +12,7 @@ export class FileUploadComponent implements OnInit {
   url: any;
 	msg = "";
 	description = "";
-	pictures: Array<Pictures> = new Array<Pictures>;
+	pictures: Pictures[] = [];
 	pic: Pictures | undefined;
 
     constructor(private dialog: MatDialog) {}
