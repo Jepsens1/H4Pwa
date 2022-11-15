@@ -3,6 +3,9 @@
 		<input type="file" (change)="selectFile($event)">
 	</p>
 </div>
+<div>
+	<p style="color: blue">{{msg}}</p>
+</div>
 
 <mat-grid-list cols="5" rowHeight="200px">
 	<mat-grid-tile *ngFor="let pic of pictures">

@@ -56,7 +56,7 @@ export class FileUploadComponent implements OnInit {
 			this.url = reader.result; 
 			this.pic = new Pictures();
 			this.pic.url = this.url;
-			this.pic.desc = 'test';
+			this.pic.desc = event.target.files[0].name;
 			this.pictures.push(this.pic)
 			console.log(this.pic)
 		}
