@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1668505029482,
+  "timestamp": 1668506524871,
   "index": "https://Jepsens1.github.io/H4Pwa/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://Jepsens1.github.io/H4Pwa/favicon.ico",
         "https://Jepsens1.github.io/H4Pwa/index.html",
-        "https://Jepsens1.github.io/H4Pwa/main.144b44def13f4ce3.js",
+        "https://Jepsens1.github.io/H4Pwa/main.e1b7500d1f8d8694.js",
         "https://Jepsens1.github.io/H4Pwa/manifest.webmanifest",
         "https://Jepsens1.github.io/H4Pwa/polyfills.5a45d22f2aa90e57.js",
         "https://Jepsens1.github.io/H4Pwa/runtime.f5be4c377fdeda57.js",
@@ -52,8 +52,8 @@
     "https://Jepsens1.github.io/H4Pwa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://Jepsens1.github.io/H4Pwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://Jepsens1.github.io/H4Pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://Jepsens1.github.io/H4Pwa/index.html": "7aefaf2d2445c372d0a52773d05285326fc5ee95",
-    "https://Jepsens1.github.io/H4Pwa/main.144b44def13f4ce3.js": "07f8971371697b608c845b6be74c1556c01ca674",
+    "https://Jepsens1.github.io/H4Pwa/index.html": "864e62a67f64c38ab6eaab86e3f2bebc0981dbd6",
+    "https://Jepsens1.github.io/H4Pwa/main.e1b7500d1f8d8694.js": "e558b73ba54d3ba70c476b77505ee04155476eb0",
     "https://Jepsens1.github.io/H4Pwa/manifest.webmanifest": "8ba94b67f906ddedb755ad1aa8acb9acf95bc7fb",
     "https://Jepsens1.github.io/H4Pwa/polyfills.5a45d22f2aa90e57.js": "fb8f832039777a2acba470b6ae2bc053652806ee",
     "https://Jepsens1.github.io/H4Pwa/runtime.f5be4c377fdeda57.js": "68f3dc62c67415d40db4426dc6c72691904d34e7",
