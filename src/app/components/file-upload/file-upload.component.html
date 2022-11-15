@@ -1,0 +1,11 @@
+<div>
+	<p>
+		<input type="file" (change)="selectFile($event)">
+	</p>
+</div>
+
+<mat-grid-list cols="5" rowHeight="200px">
+	<mat-grid-tile *ngFor="let pic of pictures">
+		<img [src]="pic.url" alt="img" style="height: 100%" (click)="openDialog(pic)">
+	</mat-grid-tile>
+</mat-grid-list>

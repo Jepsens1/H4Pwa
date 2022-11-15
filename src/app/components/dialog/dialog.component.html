@@ -1,0 +1,12 @@
+<div mat-dialog-content>
+    <img [src]="data.url" height="80%" width="80%">
+    <p>Detail</p>
+    <mat-form-field appearance="fill">
+      <input matInput [(ngModel)]="data.desc">
+    </mat-form-field>
+    <p>{{data.desc}}</p>
+  </div>
+  <div mat-dialog-actions>
+    <button mat-button (click)="onNoClick()">Close</button>
+    <button mat-button [mat-dialog-close]="data.desc" cdkFocusInitial>Ok</button>
+  </div>
